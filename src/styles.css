@@ -1,0 +1,33 @@
+.container {
+    border: 1px solid rgb(255, 251, 251);
+    border-radius: 20px;
+    width: 60vw;
+    font-family: Candara;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2)
+}
+
+h1 {
+    margin-top: 20px;
+    font-family: Lucida Sans;
+}
+
+input[type=submit]:hover {
+    background-color: #070e77;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.btn:hover {
+    background-color: rgb(80, 67, 15);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    font-weight: 500;
+}

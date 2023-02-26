@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/d027fbf3e1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/5/sandstone/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>BookList App</title>
+</head>
+
+<body style="background-color:whitesmoke;">
+    <div class="container mt-3">
+        <h1 class="display-4 text-center">
+            <i class="fas fa-duotone fa-book"></i> My<span class="text-primary">Book</span>List
+        </h1>
+        <form id="book-form" name="form">
+            <div class="group">
+                <label for="title">Title of the book</label>
+                <input type="text" id="title" class="form-control" placeholder="Book name" required>
+            </div><br>
+            <div class="group">
+                <label for="author">Author of the book</label>
+                <input type="text" id="author" class="form-control" placeholder="Author name" required>
+            </div><br>
+            <div class="group">
+                <label for="isbn">ISBN number</label>
+                <input type="text" id="isbn" class="form-control" name="in" placeholder="978-81-8038-835-4" required>
+            </div><br>
+            <div class="group">
+                <label for="dt">Date</label>
+                <input type="date" id="dt" min="1000-01-01" class="form-control" required>
+            </div><br>
+            <script>
+                dt.max = new Date().toISOString().split("T")[0];
+            </script>
+
+            <input type="submit" value="Click Here to Add Book" class="btn btn-primary btn-block">
+        </form>
+        <table class="table table-striped mt-5">
+            <thead>
+                <tr>
+                    <th>TITLE</th>
+                    <th>AUTHOR</th>
+                    <th>DATE</th>
+                    <th>ISBN</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        By <a href="https://www.linkedin.com/in/ronak-jagani-b5350b222"><i class="fa fa-brands fa-linkedin text-primary"></i></a> Ronak Jagani
+        
+    </footer>
+</body>
+
+</html>
