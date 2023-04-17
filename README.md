@@ -5,3 +5,6 @@
 - The User can also Delete/Remove bookdata from storage.
 - Messages will be shown as per user actions like Add/remove.
 - This bookList app is inspired by To-do-list.
+ # Demo:
+ - https://mybooklist-rj.netlify.app/
+ 
