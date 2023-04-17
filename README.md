@@ -1,3 +1,5 @@
+ # Demo:
+ - https://mybooklist-rj.netlify.app/
 # MyBookList-App
 - I made this app to save the details of your books. JavaScript, Bootstrap, HTML, and CSS have all been utilised.
 - The user will enter the book's title, author, a special number called an ISBN, and a date.
@@ -5,6 +7,5 @@
 - The User can also Delete/Remove bookdata from storage.
 - Messages will be shown as per user actions like Add/remove.
 - This bookList app is inspired by To-do-list.
- # Demo:
- - https://mybooklist-rj.netlify.app/
+
  
